@@ -1,17 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:100,200,300,400,500,600,700');
 body{
     background: url(../images/cooking.jpg);
-    height:400px;
+    background-size: cover;
+    background-position: no-repeat;
     display: block;
     margin: 0;
 }
-.social-links{
-    margin: 0px;
-    background: transparent;
+.nav-item a{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 25px;
+    color: #fffff0;
 }
+.name{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 100px;
+    color: #fffff0;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-weight: 100;
+}
+.surname{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 75px;
+    color: #fffff0;
+    margin-top: 0;
+    margin-left: 500px;
+}
+.social-links{
+    margin: 0;
+}
+.social-links 
 .list-inline-item{
-    margin-left: 125px;
-    padding: 12px;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding: 5px;
 }
 .list-inline-item i{
     color: #FFFFF0;
@@ -30,14 +53,16 @@ body{
             margin-left: 10px;
             font-family: "Sacramento",sans-serif;
             font-weight: 100;
+            font-size: 30px;
             color: #FFFFF0;
             text-align: none;
 }
 .contact h1{
-            margin-left: 60%;
+            margin-left: 70%;
             margin-top: 25px;
             font-family: "Sacramento",sans-serif;
             font-weight: 100;
+            font-size: 30px;
             color: #FFFFF0;           
 }
 .contact a{
@@ -50,7 +75,9 @@ body{
     font-family: "Sacramento", sans-serif;
     font-size: 50px;
     font-weight: 300;
-    margin-top: 0;
+    margin: 100px 100px 100px 100px;
+    
+
 
 }
 .home-page a{
