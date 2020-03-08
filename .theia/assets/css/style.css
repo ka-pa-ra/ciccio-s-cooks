@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento:100,200,300,400,500,600,700');
+body{
+    background: url(../images/cooking.jpg);
+    height:400px;
+    display: block;
+    margin: 0;
+}
+.social-links{
+    margin: 0px;
+    background: transparent;
+}
+.list-inline-item{
+    margin-left: 125px;
+    padding: 12px;
+}
+.list-inline-item i{
+    color: #FFFFF0;
+}
+.list-inline-item i:hover{
+             color:tomato;
+}
+.personal-info-page {
+             margin: 0;
+}
+.contact {
+    margin-left: 0;
+}
+.personal-info-page h1 {
+            margin-top: 25px;
+            margin-left: 10px;
+            font-family: "Sacramento",sans-serif;
+            font-weight: 100;
+            color: #FFFFF0;
+            text-align: none;
+}
+.contact h1{
+            margin-left: 60%;
+            margin-top: 25px;
+            font-family: "Sacramento",sans-serif;
+            font-weight: 100;
+            color: #FFFFF0;           
+}
+.contact a{
+    text-decoration: none;
+}
+.personal-info-page a {
+    text-decoration: none;
+}
+.home-page{
+    font-family: "Sacramento", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0;
+
+}
+.home-page a{
+    color: #fffff0;
+    text-decoration: none;
+
+}
